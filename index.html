@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form Certification</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <h1 id="title">Survery Form Certification</h1>
+    <p id="description">Thank you for taking the time to review my form</p>
+    
+    <main>
+        <form action="" id="survey-form" class="form1">
+          <label for="name">Name
+            <input type="text" id="name" name="username" placeholder="Enter your name" required>
+          </label>
+
+        <label for="email">Email
+          <input type="email" id="email" name="user@example.com"  placeholder="Enter your Email" required>
+        </label>
+
+        <label for="mobile number">Mobile Number
+          <input type="number" id="number" name="user_number" placeholder="Mobile Number" min="0" max="15">
+        </label>
+
+        <label for="current title">Which option best describes your current title?
+          <select id="dropdown" name="current title">
+            <option value="" disabled selected>Select current title</option>
+            <option value="full-stack web developer">Full-Stack Web Developer</option>
+            <option value="frontend web developer">Frontend Web Developer</option>
+            <option value="backend web developer">Backend Web Developer</option>
+          </select>
+        </label>
+      </form>
+
+      <form id="survey-form" class="form2">
+        <fieldset>
+          <legend>Gender</legend>
+          <label for="male"><input type="radio" id="male" name="gender" value="male"> Male</label>
+          <label for="female"><input type="radio" id="female" name="gender" value="female"> Female</label>
+
+          <legend>How would you rate my form?</legend>
+          <label for="beginner"><input type="checkbox" id="beginner" name="rating" value="beginner"> Beginner</label>
+          
+          <label for="intermediate"><input type="checkbox" id="intermediate" name="rating" value="intermediate"> Intermediate</label>
+
+          <label for="advanced"><input type="checkbox" id="advanced" name="rating" value="advanced"> Advanced</label>
+
+          <label for="additionalcomments">Any comments or suggestions?
+            <textarea id="additionalcomments" name="additionalcomments" placeholder="Enter your comment here..." rows="5" cols="30"></textarea>
+        </fieldset>
+
+        <button id="submit" type="submit">Submit</button>
+      </form>
+
+  </body>
+</html>

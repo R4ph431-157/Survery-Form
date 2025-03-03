@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://cdn.pixabay.com/photo/2018/09/08/09/48/ornament-3662184_640.jpg);
+  color: white;
+  background-size: cover;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+}
+
+h1, p {
+    text-align: center;
+}
+
+p {
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+main {
+  background-color: rgba(2, 2, 36, 0.8);
+  color: white;
+  width: 50%;
+  margin: 1rem auto;
+  padding: 1rem;
+  min-height: 100vh;
+}
+
+.form1 label,
+.form1 input,
+.form1 select {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1.4rem;
+}
+
+.form1 input {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+.form2 label,
+.form2 textarea {
+    display: block;
+    width: 100%;
+    padding: 0.2rem;
+    font-size: 1.2rem;
+}
+
+.form2 fieldset {
+    border: none;
+    margin-top: 1rem;
+}
+
+legend {
+    padding-top: 0.5rem;
+    font-size: 1.4rem;
+}
+
+button {
+    background-color: rgb(75, 243, 75);
+    color: white;
+    width: 100%;
+    margin-top: 1.5rem;
+    height: 40px;
+    border-color: rgb(75, 243, 75);
+    font-size: 1.3rem;
+}
